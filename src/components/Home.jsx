@@ -1,20 +1,69 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaLinkedin, FaGithub, FaEnvelope, FaCode } from "react-icons/fa";
-import Image from "../assets/aboutme.jpeg"; // Make sure the image path is correct
+import Image from "../assets/aboutme.jpeg";
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
+import { motion } from "framer-motion";
 
 const Home = () => {
+  const particlesInit = async (main) => {
+    await loadFull(main);
+  };
+
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-16 bg-[rgba(14,18,46,0.99)] text-white pt-16 md:pt-10"
+      className="relative min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-16 bg-[rgba(14,18,46,0.99)] text-white pt-24 md:pt-20"
     >
+      {/* Particles Background */}
+      <Particles
+        id="tsparticles"
+        init={particlesInit}
+        options={{
+          fullScreen: false,
+          background: {
+            color: "transparent",
+          },
+          fpsLimit: 60,
+          particles: {
+            color: { value: "#00ffff" },
+            links: {
+              color: "#00ffff",
+              distance: 150,
+              enable: true,
+              opacity: 0.5,
+              width: 1,
+            },
+            move: {
+              enable: true,
+              speed: 1,
+            },
+            size: {
+              value: 2,
+            },
+          },
+        }}
+        className="absolute top-0 left-0 w-full h-full -z-10"
+      />
+
       {/* Left Content */}
-      <div className="md:w-1/2 space-y-6 text-center md:text-left">
+      <motion.div
+        className="md:w-1/2 space-y-6 text-center md:text-left"
+        initial={{ opacity: 0, x: -100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+      >
         <h3 className="text-xl md:text-2xl">Hello, It's me</h3>
         <h1 className="text-3xl md:text-5xl font-bold text-cyan-400">
           Chengalapattu Vivek Sai
         </h1>
+
+        {/* Badge */}
+        <span className="inline-block bg-cyan-600 text-white text-sm px-3 py-1 rounded-full shadow-md mt-2">
+          💼 Open to Work
+        </span>
+
         <h3 className="text-lg md:text-2xl">
           And I'm a{" "}
           <span className="text-cyan-300 font-semibold">
@@ -76,21 +125,34 @@ const Home = () => {
           <a
             href="https://drive.google.com/file/d/1QVi0kFet6VeJaQGmFpQfxVehrQW7_1F0/view?usp=sharing"
             target="_blank"
-            className="inline-block px-6 py-2 bg-cyan-500 hover:bg-cyan-400 text-white font-medium rounded-lg shadow-md transition"
+            className="inline-block px-6 py-2 backdrop-blur-md bg-white/10 border border-cyan-300 hover:bg-white/20 text-white font-medium rounded-lg shadow-md transition"
           >
             CV / Resume
           </a>
         </div>
-      </div>
+
+        {/* Scroll Down Arrow */}
+        <a
+          href="#about"
+          className="mt-8 block text-cyan-400 animate-bounce text-2xl hover:text-cyan-300 transition"
+        >
+          ↓ Scroll Down
+        </a>
+      </motion.div>
 
       {/* Right Image */}
-      <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center">
+      <motion.div
+        className="md:w-1/2 mt-10 md:mt-0 flex justify-center"
+        initial={{ opacity: 0, x: 100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+      >
         <img
           src={Image}
           alt="Vivek Sai"
           className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-cyan-400 shadow-xl hover:scale-105 transition duration-300"
         />
-      </div>
+      </motion.div>
     </section>
   );
 };
