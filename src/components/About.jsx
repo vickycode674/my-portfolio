@@ -242,6 +242,21 @@ const AboutMe = () => {
                                     <li>
                                         Gained exposure to Competetive Exams  <span className="text-violet-300 font-medium">Learned balanced Appraoch to work</span>
                                     </li>
+                                    <li>
+                                        Gained exposure to Competetive Exams  <span className="text-violet-300 font-medium">Learned balanced Appraoch to work</span>
+                                    </li>
+                                    <li>
+                                        Gained exposure to Competetive Exams  <span className="text-violet-300 font-medium">Learned balanced Appraoch to work</span>
+                                    </li>
+                                    <li>
+                                        Gained exposure to Competetive Exams  <span className="text-violet-300 font-medium">Learned balanced Appraoch to work</span>
+                                    </li>
+                                    <li>
+                                        Gained exposure to Competetive Exams  <span className="text-violet-300 font-medium">Learned balanced Appraoch to work</span>
+                                    </li>
+                                    <li>
+                                        Gained exposure to Competetive Exams  <span className="text-violet-300 font-medium">Learned balanced Appraoch to work</span>
+                                    </li>
                                 </ul>
                             </div>
 
