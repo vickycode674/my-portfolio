@@ -6,6 +6,7 @@ import aiInterview from "../assets/projects/ai-interview.png";
 import travelAdvisor from "../assets/projects/travel-advisor.png";
 import youtubeclone from "../assets/projects/youtube-clone.png";
 import nikeWebsite from "../assets/projects/nike-website.png";
+import JavascriptMarvel from "../assets/projects/javascript-mini-proj.png";
 
 const projects = [
   {
@@ -13,32 +14,32 @@ const projects = [
     image: sampleImage,
     github: "https://solar-panel-detection-ml-aws.vercel.app/",
     demo: "https://solar-panel-detection-ml-aws.vercel.app/",
-    description: "AI-powered traffic congestion system using ML + V2X.",
-    tech: ["React", "Node.js", "Firebase", "Python"]
+    description: "Solar panel defect detection using Preimium Aws Tools Easily and Fast.",
+    tech: ["React", "AWS Lambda", "Firebase", "AWS SageMaker" , "Api Gateway"]
   },
   {
-    title: "AI-Powered Interview For Job Seekers Using Gemini2.0",
+    title: "AI-Powered Interview For Job Seekers Using Gemini2.0 with Vapi Assistant",
     image: aiInterview,
     github: "https://github.com/vickycode674/ai_interview_full_stack/",
     demo: "https://ai-interview-full-stack.vercel.app/",
-    description: "Blockchain-based voting platform on Ethereum.",
-    tech: ["Solidity", "Web3", "React"]
+    description: "Now Get Ready for your Interview with AI and boost your confidence.",
+    tech: ["GeminiApi", "Typescript", "React","Vapi Assistant"]
   },
   {
     title: "Travel Planner (React Js)",
     image: travelAdvisor,
     github: "https://github.com/vickycode674/Travel_Assistant",
     demo: "https://traveladvsior-vicky.netlify.app/",
-    description: "Live weather updates with Twilio SMS alerts.",
-    tech: ["Node.js", "Twilio", "OpenWeather API"]
+    description: "Get All Travel Information via maps and Select Restaurants, Hotels, and Activities.",
+    tech: ["React", "Rapid Api", "Google Maps API","material UI"]
   },
   {
-    title: "NIKE WEBSITE (React Js)",
-    image: travelAdvisor,
-    github: "https://github.com/vickycode674/Travel_Assistant",
-    demo: "https://traveladvsior-vicky.netlify.app/",
-    description: "Live weather updates with Twilio SMS alerts.",
-    tech: ["Node.js", "Twilio", "OpenWeather API"]
+    title: "Javascript Marvel Cinematic Universe ",
+    image: JavascriptMarvel,
+    github: "https://github.com/vickycode674/Javascript-miniprojects",
+    demo: "https://elegant-marshmallow-027d4b.netlify.app/",
+    description: "Enter to Marvel Cinematic Universe of Javascript Mini Projects.",
+    tech: ["Javascript", "Api", "Es6", "HTML", "CSS"]
   },
 
   {
@@ -46,16 +47,16 @@ const projects = [
     image: youtubeclone,
     github: "https://github.com/vickycode674/Youtube-clone",
     demo: "https://youtube-india.vercel.app/",
-    description: "Live weather updates with Twilio SMS alerts.",
-    tech: ["Node.js", "Twilio", "OpenWeather API"]
+    description: "Enter the Real World of Youtube India with cool features and amazing Ui.",
+    tech: ["React", "Rapid Api", "Redux", "Tailwind CSS"]
   },
   {
     title: "NIKE WEBSITE (React Js)",
     image: nikeWebsite,
     github: "https://github.com/vickycode674/Nike_Website",
     demo: "https://nike-website-flax-seven.vercel.app/",
-    description: "Live weather updates with Twilio SMS alerts.",
-    tech: ["Node.js", "Twilio", "OpenWeather API"]
+    description: "Dive Into the ultimate Clone of Nike Website where you can buy for your favorite shoes",
+    tech: ["Tailwind CSS", "React", "Redux", "React Router", "Firebase"]
   },
 ];
 

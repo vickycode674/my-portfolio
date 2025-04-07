@@ -1,4 +1,6 @@
 import AboutMe from "./components/About";
+import Contact from "./components/Contact";
+import Events from "./components/Events";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -12,8 +14,9 @@ function App() {
       <div id="about"><AboutMe/></div>
       <div id="skills"><SkillTree/></div>
       <div id="projects"><Projects/></div>
-      <div id="resume" className="h-screen bg-[#818cf8] pt-20 px-4">Resume Section</div>
-      <div id="contact" className="h-screen bg-[#6366f1] pt-20 px-4 text-white">Contact Section</div>
+      <div id="events"><Events/></div>
+      <div id="contact"><Contact/></div>
+
     </div>
   );
 }
