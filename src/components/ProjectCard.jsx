@@ -4,7 +4,7 @@ const ProjectCard = ({ title, image, github, demo, description, tech }) => {
   return (
     <div className="bg-[#1f2348] backdrop-blur-md bg-opacity-20 rounded-xl overflow-hidden shadow-xl border border-cyan-400 hover:scale-[1.03] transition duration-300 relative group w-full h-full">
       {/* Image with hover overlay */}
-      <div className="relative h-64 md:h-70 lg:h-105">
+      <div className="relative h-34 md:h-70 lg:h-105">
         <img src={image}  className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-[#0e122e]/90 text-white flex flex-col items-center justify-center p-4 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
           <p className="text-sm md:text-base mb-2">{description}</p>
@@ -14,7 +14,7 @@ const ProjectCard = ({ title, image, github, demo, description, tech }) => {
 
       {/* Project Info */}
       <div className="p-6 text-white text-center">
-        <h3 className="text-xl font-bold mb-4">{title}</h3>
+        <h3 className="text-xl font-bold mb-4  text-cyan-400">{title}</h3>
         <div className="flex justify-center gap-6">
           <a
             href={github}

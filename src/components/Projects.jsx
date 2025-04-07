@@ -4,6 +4,8 @@ import ProjectCard from "./ProjectCard";
 import sampleImage from "../assets/projects/solarPanel.png";
 import aiInterview from "../assets/projects/ai-interview.png";
 import travelAdvisor from "../assets/projects/travel-advisor.png";
+import youtubeclone from "../assets/projects/youtube-clone.png";
+import nikeWebsite from "../assets/projects/nike-website.png";
 
 const projects = [
   {
@@ -38,23 +40,23 @@ const projects = [
     description: "Live weather updates with Twilio SMS alerts.",
     tech: ["Node.js", "Twilio", "OpenWeather API"]
   },
-  {
-    title: "Welcome to the world of Javascript (React Js)",
-    image: travelAdvisor,
-    github: "https://github.com/vickycode674/Travel_Assistant",
-    demo: "https://traveladvsior-vicky.netlify.app/",
-    description: "Live weather updates with Twilio SMS alerts.",
-    tech: ["Node.js", "Twilio", "OpenWeather API"]
-  },
+
   {
     title: "YouTube Clone (React Js)",
-    image: travelAdvisor,
-    github: "https://github.com/vickycode674/Travel_Assistant",
-    demo: "https://traveladvsior-vicky.netlify.app/",
+    image: youtubeclone,
+    github: "https://github.com/vickycode674/Youtube-clone",
+    demo: "https://youtube-india.vercel.app/",
     description: "Live weather updates with Twilio SMS alerts.",
     tech: ["Node.js", "Twilio", "OpenWeather API"]
   },
-  // Add more as needed
+  {
+    title: "NIKE WEBSITE (React Js)",
+    image: nikeWebsite,
+    github: "https://github.com/vickycode674/Nike_Website",
+    demo: "https://nike-website-flax-seven.vercel.app/",
+    description: "Live weather updates with Twilio SMS alerts.",
+    tech: ["Node.js", "Twilio", "OpenWeather API"]
+  },
 ];
 
 const Projects = () => {
