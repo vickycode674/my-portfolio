@@ -6,7 +6,7 @@ import aiInterview from "../assets/projects/ai-interview.png";
 import travelAdvisor from "../assets/projects/travel-advisor.png";
 import youtubeclone from "../assets/projects/youtube-clone.png";
 import nikeWebsite from "../assets/projects/nike-website.png";
-import JavascriptMarvel from "../assets/projects/javascript-mini-proj.png";
+import JavascriptMarvel from "../assets/projects/Javascript-mini-proj.png";
 
 const projects = [
   {
