@@ -69,7 +69,11 @@ const Home = () => {
           <span className="text-cyan-300 font-semibold">
             <TypeAnimation
               sequence={[
-                "Full Stack Developer",
+                "Aspiring Software Engineer",
+                2000,
+                "Cloud  Enthusiast (AWS , GCP)",
+                2000,
+                "Full Stack Developer (MERN / MEVN)",
                 2000,
                 "React.js Developer",
                 2000,
@@ -85,7 +89,7 @@ const Home = () => {
 
         <p className="text-base md:text-lg leading-relaxed text-gray-300">
           I am a full stack developer with extensive tech skills. <br />
-          Expertise in HTML, CSS, JavaScript, React-JS.
+          Expertise in Mongo DB, Express Js, Vue.js  React-JS.
         </p>
 
         {/* Social Icons */}

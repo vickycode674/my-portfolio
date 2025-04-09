@@ -99,8 +99,6 @@ const AboutMe = () => {
 
                                 <ul className="list-disc pl-5 text-sm text-gray-300 space-y-1 leading-relaxed">
                                     <li>Led the PALS community at SRM IST Ramapuram, mentoring <span className="text-cyan-300 font-medium">10,000+ students</span>.</li>
-                                    <li>Coordinated workshops, ideathons & tech events with <span className="text-cyan-300 font-medium">IIT Madras</span>.</li>
-                                    <li>Enhanced leadership & public speaking through collaboration with <span className="text-cyan-300 font-medium">PALS EC members</span>.</li>
                                     <li>Represented SRM at the IIT PALS Workshop; won for <span className="text-cyan-300 font-medium">project excellence</span>.</li>
                                     <li>Boosted innovation & <span className="text-cyan-300 font-medium">inter-college networking</span> across 40+ colleges.</li>
                                 </ul>
@@ -146,9 +144,6 @@ const AboutMe = () => {
                                         Built UIs using <span className="text-cyan-300 font-medium">ReactJS</span> for grocery stores and e-commerce platforms.
                                     </li>
                                     <li>
-                                        Implemented <span className="text-cyan-300 font-medium">responsive designs</span> and developed admin dashboards with reusable components.
-                                    </li>
-                                    <li>
                                         Collaborated with team on GitHub, mastering <span className="text-cyan-300 font-medium">Git</span> version control and clean code practices.
                                     </li>
                                     <li>
@@ -177,8 +172,8 @@ const AboutMe = () => {
                                     <h4 className="text-violet-400 font-bold text-lg">SRM Institute of Science and Technology</h4>
                                 </div>
                                 <div className="flex items-center gap-2">
-                                    <img src={CollegeLogo} alt="SRM Logo" className="w-28 h-10 object-contain rounded-full" />
-                                    <span className="text-gray-300 text-sm font-semibold">CGPA: <span className="text-violet-300">9.56</span></span>
+                                    <img src={CollegeLogo} alt="SRM Logo" className="w-28 h-9 object-contain rounded-full" />
+                                    <span className="text-gray-300 text-sm font-semibold">CGPA <span className="text-violet-300">9.56</span></span>
                                 </div>
                             </div>
 
@@ -238,21 +233,6 @@ const AboutMe = () => {
                                     </li>
                                     <li>
                                         With combination  subjects <span className="text-violet-300 font-medium"> Advanced Mathematics , Chemistry </span>, and <span className="text-violet-300 font-medium">Physics</span>.
-                                    </li>
-                                    <li>
-                                        Gained exposure to Competetive Exams  <span className="text-violet-300 font-medium">Learned balanced Appraoch to work</span>
-                                    </li>
-                                    <li>
-                                        Gained exposure to Competetive Exams  <span className="text-violet-300 font-medium">Learned balanced Appraoch to work</span>
-                                    </li>
-                                    <li>
-                                        Gained exposure to Competetive Exams  <span className="text-violet-300 font-medium">Learned balanced Appraoch to work</span>
-                                    </li>
-                                    <li>
-                                        Gained exposure to Competetive Exams  <span className="text-violet-300 font-medium">Learned balanced Appraoch to work</span>
-                                    </li>
-                                    <li>
-                                        Gained exposure to Competetive Exams  <span className="text-violet-300 font-medium">Learned balanced Appraoch to work</span>
                                     </li>
                                     <li>
                                         Gained exposure to Competetive Exams  <span className="text-violet-300 font-medium">Learned balanced Appraoch to work</span>

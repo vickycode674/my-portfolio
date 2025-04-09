@@ -130,7 +130,7 @@ const Contact = () => {
             {/* Right Side - Form */}
             <div className="flex-1 mt-24">
                  <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#49cfef] text-center md:text-left">
-                    Reach out Via Direct Message
+                    Reach  Out Via Direct Message
                 </h2>
                 <form onSubmit={handleSubmit} className="flex flex-col gap-4 bg-white/5 backdrop-blur-md p-6 rounded-lg shadow-lg">
                     {alert && (
@@ -179,8 +179,19 @@ const Contact = () => {
                         className="bg-gradient-to-r from-[#00e6e6] to-[#1effbc] text-black font-semibold py-2 rounded-md cursor-pointer transition-transform hover:scale-105"
                     />
                 </form>
+                <div className="text-center mt-16">
+  <button
+    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+    className="bg-[#5149ef] text-white font-semibold py-2 px-6 rounded hover:bg-[#1b9cc2] transition"
+  >
+    Back to Top ↑
+  </button>
+</div>
+
             </div>
         </section>
+
+        
     );
 };
 

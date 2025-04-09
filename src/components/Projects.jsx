@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 
-import sampleImage from "../assets/projects/solarPanel.png";
+import sampleImage from "../assets/projects/solar-panel.png";
 import aiInterview from "../assets/projects/ai-interview.png";
 import travelAdvisor from "../assets/projects/travel-advisor.png";
 import youtubeclone from "../assets/projects/youtube-clone.png";
