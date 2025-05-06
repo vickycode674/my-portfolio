@@ -109,7 +109,7 @@ const Home = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://www.hackerrank.com/RA2111028020021"
+            href="https://leetcode.com/u/codevicky_674/"
             target="_blank"
             className="text-cyan-300 hover:text-white transition text-xl border-2 border-cyan-400 p-3 rounded-full"
           >
