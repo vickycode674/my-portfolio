@@ -127,7 +127,7 @@ const Home = () => {
         {/* Resume Button */}
         <div className="mt-6">
           <a
-            href="https://drive.google.com/file/d/1QVi0kFet6VeJaQGmFpQfxVehrQW7_1F0/view?usp=sharing"
+            href="https://drive.google.com/file/d/1q2ZCDD91aQHHOIaAWbBZLatwyHU_6k9x/view?usp=sharing"
             target="_blank"
             className="inline-block px-6 py-2 backdrop-blur-md bg-white/10 border border-cyan-300 hover:bg-white/20 text-white font-medium rounded-lg shadow-md transition"
           >
